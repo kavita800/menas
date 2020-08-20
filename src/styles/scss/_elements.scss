@@ -162,7 +162,7 @@ h6 {
     text-decoration: none;
     font-weight: 500;
     cursor: pointer;
-    @include transition();
+    // @include transition();
     &:focus {
         outline: none;
     }
@@ -1014,7 +1014,7 @@ h6 {
             padding: 10px 0 10px 0px;
             .option {
                 font-weight: 300;
-                @include transition();
+                // @include transition();
                 line-height: 28px;
                 min-height: 28px;
                 font-size: 12px;
@@ -1059,7 +1059,7 @@ h6 {
             padding: 10px 0 10px 0px;
             .option {
                 font-weight: 300;
-                @include transition();
+                // @include transition();
                 line-height: 28px;
                 min-height: 28px;
                 font-size: 12px;

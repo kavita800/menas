@@ -1,3 +1,7 @@
+
+@import 'responsive';
+@import '_varriable';
+
 .boxed-btn {
 	background: #fff;
 	color: $theme-color4;
@@ -40,7 +44,7 @@
     text-align: center;
     color: #fff !important;
     text-transform: capitalize;
-    @include transition(.5s);
+    // @include transition(.5s);
     cursor: pointer;
     &:hover{
         background: #fff;

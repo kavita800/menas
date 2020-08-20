@@ -2,7 +2,7 @@
 
 // // slick-nav
 // .mobile_menu{
-//     @media #{$mobile_device} {
+//       @media screen and (max-width: 600px) {
 //         position: absolute;
 //         right: 0px;
 //         width: 100%;
@@ -33,7 +33,7 @@
 //                 color: #4A3600;
 //             }
 //             i{
-//                 @media #{$mobile_device} {
+//                   @media screen and (max-width: 600px) {
 //                     display: none;
 //                 }
 //                 @media #{$tablet_device} {
@@ -62,7 +62,7 @@
 //             }
 //         }
 //     }
-//     @media #{$mobile_device} {
+//       @media screen and (max-width: 600px) {
 //         margin-right: 0px;
 //     }
 // }

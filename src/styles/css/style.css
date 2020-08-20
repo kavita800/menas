@@ -194,17 +194,17 @@ h3 {
 
 /* line 131, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_reset.scss */
 .bg-img-1 {
-  background-image: url('/../../assets/img/slider/slider-img-1.jpg');
+  /* background-image: url('../../assets/img/slider/slider-img-1.jpg'); */
 }
 
 /* line 134, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_reset.scss */
 .bg-img-2 {
-  background-image: url('/../../assets/img/background-img/bg-img-2.jpg');
+  /* background-image: url('/../../assets/img/background-img/bg-img-2.jpg'); */
 }
 
 /* line 137, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_reset.scss */
 .cta-bg-1 {
-  background-image: url('/../../assets/img/background-img/bg-img-3.jpg');
+  /* background-image: url('/../../assets/img/background-img/bg-img-3.jpg'); */
 }
 
 /* line 142, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_reset.scss */
@@ -1413,7 +1413,7 @@ h3 {
 
 /* line 98, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_about.scss */
 .about_bg_1 {
-  background-image: url('/../../assets/img/banner/about_banner.png');
+  /* background-image: url('/../../assets/img/banner/about_banner.png'); */
 }
 
 /* line 101, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_about.scss */
@@ -1645,7 +1645,7 @@ h3 {
 
 /* line 65, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_cutter_master.scss */
 .find_bg_1 {
-  background-image: url('/../../assets/img/team/img.png');
+  /* background-image: url('/../../assets/img/team/img.png'); */
 }
 
 /* line 69, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_cutter_master.scss */
@@ -1775,7 +1775,7 @@ h3 {
 .service_area::after {
   position: absolute;
   content: "";
-  background-image: url('/../../assets/img/banner/banner_service.png');
+  /* background-image: url('/../../assets/img/banner/banner_service.png'); */
   height: 650px;
   left: 0;
   right: 0;
@@ -2426,12 +2426,12 @@ h3 {
 
 /* line 4, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_bradcam.scss */
 .breadcam_bg_1 {
-  background-image: url('/../../assets/img/banner/bradcam2.png');
+  /* background-image: url('/../../assets/img/banner/bradcam2.png'); */
 }
 
 /* line 7, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_bradcam.scss */
 .breadcam_bg_2 {
-  background-image: url('/../../assets/img/banner/bradcam3.png');
+  /* background-image: url('/../../assets/img/banner/bradcam3.png'); */
 }
 
 /* line 10, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_bradcam.scss */

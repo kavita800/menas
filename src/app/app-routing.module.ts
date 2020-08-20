@@ -11,6 +11,7 @@ import { ProductCopyComponent } from './product-copy/product-copy.component';
 import { ServiceComponent } from './service/service.component';
 import { SingleBlogComponent } from './single-blog/single-blog.component';
 import { SpecialsComponent } from './specials/specials.component';
+// import { BasicelementsComponent } from './basicelements/basicelements.component';
 
 
 
@@ -27,6 +28,7 @@ const routes: Routes = [
   { path: 'service', component: ServiceComponent  },
   { path: 'single-blog', component: SingleBlogComponent  },
   { path: 'specials', component: SpecialsComponent  },
+  // { path: 'appointment', component: BasicelementsComponent  },
   
 
  

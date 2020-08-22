@@ -16,13 +16,50 @@
                             <nav>
                                 <ul id="navigation">
                                     <li><a [routerLink]="['/about']">About</a></li>
-                                    <li><a [routerLink]="['/service']">service</a></li>
-                                    <li><a  [routerLink]="['/product']">products</a>
+                                    <!-- <li><a [routerLink]="['/service']">service</a></li> -->
+                                    <li><a >service<i class="ti-angle-down"></i></a>
+                                        <ul class="submenu">
+                                            <li><a [routerLink]="['/service']">hair color</a></li>
+                                            <li><a [routerLink]="['/service']">hair style</a></li>
+                                            <li><a [routerLink]="['/service']">hair cut</a></li>
+                                            <li><a [routerLink]="['/service']">weave</a></li>
+                                            <li><a [routerLink]="['/service']">keratin treatment</a></li>
+                                            <li><a [routerLink]="['/service']">dandruff</a></li>
+                                            <li><a [routerLink]="['/service']">treatment</a></li>
+                                            <li><a [routerLink]="['/service']">hot oil</a></li>
+                                            <li><a [routerLink]="['/service']">tough-up</a></li>
+                                        </ul>
+                                    </li>
+                                    <!-- <li><a  [routerLink]="['/product']">products</a>
+                                    </li> -->
+                                    <li >
+                                        <a>products<i class="ti-angle-down"></i></a>
+                                        <ul class="submenu">
+                                            <li ><a [routerLink]='["/product"]'>aveda</a></li>
+                                            <li ><a  [routerLink]='["/product"]'>wella</a></li>
+                                            <li ><a  [routerLink]='["/product"]'>SEBASTIAN</a></li>
+                                            <li ><a  [routerLink]='["/product"]'>NIOXIN</a></li>
+
+                                        </ul>
                                     </li>
                                      
                                     <li><a [routerLink]="['/contact']">Contact</a></li>
                                     <li><a  [routerLink]="['/gallery']">Gallery</a></li>
-                                    <li><a  [routerLink]="['/specials']">Specials</a></li>   <li><a href="our_team.html">Team</a></li>   
+                                    <li><a  [routerLink]="['/specials']">Specials</a></li>   
+                                    <li><a [routerLink]="['/our-team']">Team<i class="ti-angle-down"></i></a>
+                                        <ul class="submenu">
+                                            <li><a [routerLink]="['/our-team']">matteson</a></li>
+                                            <li><a [routerLink]="['/our-team']">country club</a></li>
+                                            <li><a [routerLink]="['/our-team']">hillss</a></li>
+                                            <li><a [routerLink]="['/our-team']">lansing</a></li>
+                                            <li><a [routerLink]="['/our-team']">95th st.(chicago)</a></li>
+                                            <li><a [routerLink]="['/our-team']">merrillville</a></li>
+                                            <li><a [routerLink]="['/our-team']">aurora</a></li>
+                                            <li><a [routerLink]="['/our-team']">35th st.(chicago)</a></li>
+                                            <li><a [routerLink]="['/our-team']">marshfield</a></li>
+                                            <li><a [routerLink]="['/our-team']">ave(chicago)</a></li>
+                                            <li><a [routerLink]="['/our-team']">forest park</a></li>
+                                        </ul></li>   
                                     <li><a  [routerLink]="['/testimonials']">Testimonials</a></li>             
                                     <li><a  [routerLink]="['/location']">Location</a></li>          </ul>
                             </nav>
@@ -31,7 +68,7 @@
                     <div class="col-xl-3 col-lg-3 d-none d-lg-block">
                         <div class="book_room">
                             <div class="book_btn d-none d-lg-block">
-                                <a class="popup-with-form" [routerLink]="['/appointment']">Make an Appointment</a>
+                                <a class="popup-with-form" (click)="openBookAppointment(bookAppointment)">Make an Appointment</a>
                             </div>
                         </div>
                     </div>
@@ -44,3 +81,4 @@
     </div>
 <!-- </header> -->
 <!-- header-end -->
+<app-book-appointment #bookAppointment></app-book-appointment>

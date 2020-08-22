@@ -23,6 +23,7 @@ import { BookAppointmentComponent } from './book-appointment/book-appointment.co
 import { LocationComponent } from './location/location.component';
 import { AgmCoreModule } from '@agm/core';
 import { OwlModule } from 'ngx-owl-carousel';  
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 // import { BasicelementsComponent } from './basicelements/basicelements.component';
 
 @NgModule({
@@ -52,6 +53,7 @@ import { OwlModule } from 'ngx-owl-carousel';
     ReactiveFormsModule,
     BrowserModule,
     AppRoutingModule,
+    NgbModule,
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyDpfS1oRGreGSBU5HHjMmQ3o5NLw7VdJ6I&amp'
     }),

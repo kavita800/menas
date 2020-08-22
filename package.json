@@ -21,7 +21,10 @@
     "@angular/router": "~9.1.9",
     "@syncfusion/ej2-base": "^18.2.54",
     "@syncfusion/ej2-schedule": "^18.2.54",
+    "jquery": "^3.5.1",
+    "ngx-owl-carousel": "^2.0.7",
     "ngx-toastr": "^13.0.0",
+    "owl.carousel": "^2.3.4",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"

@@ -782,13 +782,14 @@ h3 {
 
 /* line 1, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_header.scss */
 .header-area {
-  position: absolute;
+  position: sticky;
   left: 0;
   right: 0;
   width: 100%;
   top: 0;
   z-index: 9;
-  padding-top: 28px;
+  /* padding-top: 28px; */
+  background: #4A3600;
 }
 
 @media (max-width: 767px) {

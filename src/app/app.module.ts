@@ -20,6 +20,8 @@ import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { OurTeamComponent } from './our-team/our-team.component';
 import { BookAppointmentComponent } from './book-appointment/book-appointment.component';
+import { LocationComponent } from './location/location.component';
+import { AgmCoreModule } from '@agm/core';
 import { OwlModule } from 'ngx-owl-carousel';  
 // import { BasicelementsComponent } from './basicelements/basicelements.component';
 
@@ -41,6 +43,7 @@ import { OwlModule } from 'ngx-owl-carousel';
     HomeComponent,
     OurTeamComponent,
     BookAppointmentComponent,
+    LocationComponent,
     // BasicelementsComponent
   ],
   imports: [
@@ -49,6 +52,9 @@ import { OwlModule } from 'ngx-owl-carousel';
     ReactiveFormsModule,
     BrowserModule,
     AppRoutingModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyDpfS1oRGreGSBU5HHjMmQ3o5NLw7VdJ6I&amp'
+    }),
     OwlModule  
   ],
   providers: [],

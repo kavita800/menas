@@ -12,6 +12,7 @@ import { ServiceComponent } from './service/service.component';
 import { SingleBlogComponent } from './single-blog/single-blog.component';
 import { SpecialsComponent } from './specials/specials.component';
 import { OurTeamComponent } from './our-team/our-team.component';
+import { LocationComponent } from './location/location.component';
 // import { BasicelementsComponent } from './basicelements/basicelements.component';
 
 
@@ -30,6 +31,8 @@ const routes: Routes = [
   { path: 'single-blog', component: SingleBlogComponent  },
   { path: 'specials', component: SpecialsComponent  },
   { path: 'our-team', component: OurTeamComponent  },
+  { path: 'location', component: LocationComponent  },
+
   // { path: 'appointment', component: BasicelementsComponent  },
   
 

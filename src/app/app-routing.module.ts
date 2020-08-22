@@ -30,14 +30,11 @@ const routes: Routes = [
   { path: 'service', component: ServiceComponent  },
   { path: 'single-blog', component: SingleBlogComponent  },
   { path: 'specials', component: SpecialsComponent  },
-  { path: 'our-team', component: OurTeamComponent  },
+  { path: 'our-team/:name', component: OurTeamComponent  },
   { path: 'location', component: LocationComponent  },
 
   // { path: 'appointment', component: BasicelementsComponent  },
   
-
- 
-  // { path: '', loadChildren: './layout/layout.module#LayoutModule', canActivate: [AuthGuard] },
   { path: '**', loadChildren: './not-found/not-found.module#NotFoundModule' }
 ]
 

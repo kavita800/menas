@@ -2090,6 +2090,7 @@ h3 {
 /* line 117, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_gallery.scss */
 .video_area .video_thumb .video_thumb_inner img {
   width: 100%;
+  padding: 10%;
 }
 
 /* line 120, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_gallery.scss */

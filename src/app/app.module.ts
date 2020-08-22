@@ -20,6 +20,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { OurTeamComponent } from './our-team/our-team.component';
 import { BookAppointmentComponent } from './book-appointment/book-appointment.component';
+import { OwlModule } from 'ngx-owl-carousel';  
 // import { BasicelementsComponent } from './basicelements/basicelements.component';
 
 @NgModule({
@@ -47,7 +48,8 @@ import { BookAppointmentComponent } from './book-appointment/book-appointment.co
     FormsModule,
     ReactiveFormsModule,
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    OwlModule  
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -22,6 +22,7 @@ import { OurTeamComponent } from './our-team/our-team.component';
 import { BookAppointmentComponent } from './book-appointment/book-appointment.component';
 import { LocationComponent } from './location/location.component';
 import { AgmCoreModule } from '@agm/core';
+import { OwlModule } from 'ngx-owl-carousel';  
 // import { BasicelementsComponent } from './basicelements/basicelements.component';
 
 @NgModule({
@@ -53,7 +54,8 @@ import { AgmCoreModule } from '@agm/core';
     AppRoutingModule,
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyDpfS1oRGreGSBU5HHjMmQ3o5NLw7VdJ6I&amp'
-    })
+    }),
+    OwlModule  
   ],
   providers: [],
   bootstrap: [AppComponent]

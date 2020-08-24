@@ -13,13 +13,12 @@ export class OurTeamComponent implements OnInit {
   constructor(private router: Router ,private route: ActivatedRoute) { 
     router.events.subscribe((val) => {
       // see also 
-      // console.log( "Caalusafg ________",val) 
-      console.log("this.route.snapshot.paramMap.get('name') >>>>>",this.route.snapshot.paramMap.get('name'));
+      // console.log("this.route.snapshot.paramMap.get('name') >>>>>",this.route.snapshot.paramMap.get('name'));
       
       this.members = TeamConfig[this.route.snapshot.paramMap.get('name')]
-      console.log("Paramenter 1111 >>>>>>>>>>",this.members[0].url);
-      console.log("Paramenter 2222 >>>>>>>>>>",this.members[0].name);
-      console.log("Paramenter 3333 >>>>>>>>>>",this.members);
+      // console.log("Paramenter 1111 >>>>>>>>>>",this.members[0].url);
+      // console.log("Paramenter 2222 >>>>>>>>>>",this.members[0].name);
+      // console.log("Paramenter 3333 >>>>>>>>>>",this.members);
 
 
   });
@@ -37,11 +36,8 @@ export class OurTeamComponent implements OnInit {
       .subscribe(params => {
         // Defaults to 0 if no query param provided.
         this.page = params['page'];
-        // console.log("Page >>>>>>>>>>>>",this.page);
-    console.log("Paramenter >>>>>>>>>>",this.route.snapshot.paramMap.get('name'));
-        
+    // console.log("Paramenter >>>>>>>>>>",this.route.snapshot.paramMap.get('name'));
       });
-      // this.router.p
   }
 
   ngOnChanges(){

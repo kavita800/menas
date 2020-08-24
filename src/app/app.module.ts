@@ -14,7 +14,6 @@ import { SingleBlogComponent } from './single-blog/single-blog.component';
 import { SpecialsComponent } from './specials/specials.component';
 import { ElementsComponent } from './elements/elements.component';
 import { ContactComponent } from './contact/contact.component';
-import { ProductCopyComponent } from './product-copy/product-copy.component';
 import { HomeComponent } from './home/home.component';
 import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -40,7 +39,6 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     SpecialsComponent,
     ElementsComponent,
     ContactComponent,
-    ProductCopyComponent,
     HomeComponent,
     OurTeamComponent,
     BookAppointmentComponent,

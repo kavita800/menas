@@ -7,7 +7,6 @@ import { ContactComponent } from './contact/contact.component';
 import { ElementsComponent } from './elements/elements.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ProductComponent } from './product/product.component';
-import { ProductCopyComponent } from './product-copy/product-copy.component';
 import { ServiceComponent } from './service/service.component';
 import { SingleBlogComponent } from './single-blog/single-blog.component';
 import { SpecialsComponent } from './specials/specials.component';
@@ -26,7 +25,6 @@ const routes: Routes = [
   { path: 'element', component: ElementsComponent  },
   { path: 'gallery', component: GalleryComponent  },
   { path: 'product', component: ProductComponent  },
-  { path: 'product-copy', component: ProductCopyComponent  },
   { path: 'service', component: ServiceComponent  },
   { path: 'single-blog', component: SingleBlogComponent  },
   { path: 'specials', component: SpecialsComponent  },

@@ -9,153 +9,24 @@
 <!-- <section class="contact-section"> -->
 <div class="container">
     <ul class="nav nav-tabs">
-        <li class="active"><a data-toggle="tab" href="#lansing" aria-selected="true">Lansing</a></li>
-        <li><a data-toggle="tab" aria-selected="false" href="#country_club">Country Club Hills</a></li>
-        <li><a data-toggle="tab" aria-selected="false" href="#matteson">Matteson</a></li>
-        <li><a data-toggle="tab" aria-selected="false" href="#aurora">Aurora</a></li>
-        <li><a data-toggle="tab" aria-selected="false" href="#95">95th St.(Chicago)</a></li>
-        <li><a data-toggle="tab" aria-selected="false" href="#merr">Merrillville</a></li>
-        <li><a data-toggle="tab" aria-selected="false" href="#35">35th St.(Chicago)</a></li>
-        <li><a data-toggle="tab" aria-selected="false" href="#marsh">Marshfield Ave(chicago)</a></li>
-        <li><a data-toggle="tab" aria-selected="false" href="#forest">Forest Park</a></li>
+        <li   *ngFor="let tab of tabData" [ngClass]="{'active':tab.id === dataConfig.id }" ><a data-toggle="tab" (click) = tabChange(tab) aria-selected="true" >{{tab.name}}</a></li>
+       
       </ul>
       <div class="tab-content">
       <div id="lansing" role="tabpanel" style="text-align: center;" class="tab-pane active">
           <h3>Mena s Hair Design</h3><br>
           <p>Address:
-            2 River Place
-            Lansing, IL 60438 <br>
-            Phone: (708) 474-4522<br>
-            Email: menashairdesign.enquiry@gmail.com<br>
-            Website: http://www.menahairdesign.com</p>
+            {{dataConfig.address}} <br>
+            Phone: {{dataConfig.phone}}<br>
+            Email: {{dataConfig.email}}<br>
+            Website: {{dataConfig.web}}<br>
+            Fax: {{dataConfig.fax}}
+        </p>
       
         <h3>Hours of Operation</h3><br>
-        <p>24 hours, 7 days a week</p>
+        <p>{{dataConfig.time    }}</p>
     </div>
-    <div id="country_club" role="tabpanel" style="text-align: center;" class="tab-pane">
-        <h3>Mena s Hair Design</h3><br>
-        <p>Address:
-            4287 167th St
-            Country Club Hls, IL 60478 <br>
-          Phone: (708) 799-4065<br>
-          Email: menashairdesign.enquiry@gmail.com<br>
-          Website: http://www.menahairdesign.com</p>
-    
-      <h3>Hours of Operation</h3><br>
-      <p>24 hours, 7 days a week</p>
-  </div>
-  <div id="matteson" role="tabpanel" style="text-align: center;" class="tab-pane">
-    <h3>Mena s Hair Design</h3><br>
-    <p>Address:
-        4721 Lincoln Mall Drive
-        Matteson, IL 60443 <br>
-      Phone: (708) 679-1990<br>
-      Email: menashairdesign.enquiry@gmail.com<br>
-      Website: http://www.menahairdesign.com<br>
-      Fax: (708) 679-1910
-    </p>
-        
-  <h3>Hours of Operation</h3><br>
-  <p>Open 24/7 days</p>
-</div>
-    <div id="aurora" role="tabpanel" style="text-align: center;" class="tab-pane">
-        <h3>Mena s Hair Design</h3><br>
-        <p>Address:
-            1649 MONTGOMERY Rd.
-            Aurora, IL 60504 <br>
-        Phone: (630) 236-0893<br>
-        Email: menashairdesign.enquiry@gmail.com<br>
-        Website: http://www.menahairdesign.com<br>
-        </p>
-            
-        <h3>Hours of Operation</h3><br>
-        <p>Mon: Closed<br>
-        Tuesday - Friday : 10 am to 7pm<br>
-        Saturday : 8 am to 6pm<br>
-        Sunday : 12 am to 7pm</p>
-    </div>
-    <div id="95" role="tabpanel" style="text-align: center;" class="tab-pane">
-        <h3>Mena s Hair Design</h3><br>
-        <p>Address:
-            1314 West 95th Street
-            Chicago, IL 60643 <br>
-        Phone: (773) 445-4065<br>
-        Email: menashairdesign.enquiry@gmail.com<br>
-        Website: http://www.menahairdesign.com<br>
-        </p>
-            
-        <h3>Hours of Operation</h3><br>
-        <p>Mon: Closed<br>
-        Tuesday - Friday : 10 am to 7pm<br>
-        Saturday : 8 am to 6pm<br>
-        Sunday : 12 am to 7pm</p>
-    </div>
-    <div id="merr" role="tabpanel" style="text-align: center;" class="tab-pane">
-        <h3>Mena s Hair Design</h3><br>
-        <p>Address:
-            7706 Broadway Merrillville
-            Indiana 46410 <br>
-        Phone: 1 219-750-9079<br>
-        Email: menashairdesign.enquiry@gmail.com<br>
-        Website: http://www.menahairdesign.com<br>
-        </p>
-            
-        <h3>Hours of Operation</h3><br>
-        <p>Now Open<br>
-            Mon - Fri: 09:00 am to 08:00 pm<br>
-            Sat: 08:00 am to 07:00 pm<br>
-            Sun: 09:00 am to 06:00 pm</p>
-    </div>
-    <div id="35" role="tabpanel" style="text-align: center;" class="tab-pane">
-        <h3>Mena s Hair Design</h3><br>
-        <p>Address:
-            325 E. 35th St
-            Chicago, IL 60616<br>
-        Phone: (312) 225-6333<br>
-        Email: menashairdesign.enquiry@gmail.com<br>
-        Website: http://www.menahairdesign.com<br>
-        Fax: (312) 225-6313
-        </p>
-            
-        <h3>Hours of Operation</h3><br>
-        <p>Open 24 hours / 7 days
-        </p>
-    </div>
-    <div id="marsh" role="tabpanel" style="text-align: center;" class="tab-pane">
-        <h3>Mena s Hair Design</h3><br>
-        <p>Address:
-            11632 south Marshfield Ave
-            Chicago il 60643<br>
-        Phone: 773-568-5156<br>
-        Email: menashairdesign.enquiry@gmail.com<br>
-        Website: http://www.menahairdesign.com<br>
-        </p>
-            
-        <h3>Hours of Operation</h3><br>
-        <p>Mon - Fri: 09:00 am to 08:00 pm<br>
-            Sat: 08:00 am to 07:00 pm<br>
-            Sun: 09:00 am to 06:00 pm
-        </p>
-    </div>
-    <div id="forest" role="tabpanel" style="text-align: center;" class="tab-pane">
-        <h3>Mena s Hair Design</h3><br>
-        <p>Address:
-            7610 W. Roosevelt Road<br>
-            Suit (107)<br>
-            Forest Park, IL 60130<br>
-            708-689-8391<br>
-        Phone: 708-689-8392<br>
-        Email: menashairdesign.enquiry@gmail.com<br>
-        Website: http://www.menahairdesign.com<br>
-        </p>
-            
-        <h3>Hours of Operation</h3><br>
-        <p>Now Open<br>
-            Mon - Fri: 09:00 am to 08:00 pm<br>
-            Sat: 08:00 am to 07:00 pm<br>
-            Sun: 09:00 am to 06:00 pm
-        </p>
-    </div>
+ 
 </div>
 <agm-map [latitude]="lat" [longitude]="lng"></agm-map>
   

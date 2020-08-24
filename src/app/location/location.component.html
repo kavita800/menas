@@ -9,7 +9,7 @@
 <!-- <section class="contact-section"> -->
 <div class="container">
     <ul class="nav nav-tabs">
-        <li   *ngFor="let tab of tabData" [ngClass]="{'active':tab.id === dataConfig.id }" ><a data-toggle="tab" (click) = tabChange(tab) aria-selected="true" >{{tab.name}}</a></li>
+        <li   *ngFor="let tab of tabData" ><a data-toggle="tab" (click) = tabChange(tab) aria-selected="true" [ngStyle]="{'background-color':tab.id === dataConfig.id ? 'white' : '#f2f2f2' }" >{{tab.name}}</a></li>
        
       </ul>
       <div class="tab-content">

@@ -16,19 +16,12 @@ export class OurTeamComponent implements OnInit {
       // console.log("this.route.snapshot.paramMap.get('name') >>>>>",this.route.snapshot.paramMap.get('name'));
       
       this.members = TeamConfig[this.route.snapshot.paramMap.get('name')]
-      // console.log("Paramenter 1111 >>>>>>>>>>",this.members[0].url);
-      // console.log("Paramenter 2222 >>>>>>>>>>",this.members[0].name);
-      // console.log("Paramenter 3333 >>>>>>>>>>",this.members);
+   
 
 
   });
   }
-  // teamM : string = `<p style="text-align: center;">Ayman</p>`;
-  // ngOnInit(): void {
-  //   console.log(this.router.url,"TeamConfig >>>>>>>>>>>>>..  ",TeamConfig);
-  //   console.log("Paramenter >>>>>>>>>>",this.router.getCurrentNavigation(),this.route.snapshot.paramMap.get('name'));
-  // }
-
+burial
 
   ngOnInit() {
      this.route
@@ -44,8 +37,6 @@ export class OurTeamComponent implements OnInit {
     console.log("Paramenter 3333 >>>>>>>>>>",this.route.snapshot.paramMap.get('name'));
 
   }
-  // ngOnDestroy() {
-  //   this.sub.unsubscribe();
-  // }
+ 
 
 }

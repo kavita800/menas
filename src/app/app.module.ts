@@ -10,7 +10,6 @@ import { AboutComponent } from './about/about.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ProductComponent } from './product/product.component';
 import { ServiceComponent } from './service/service.component';
-import { SingleBlogComponent } from './single-blog/single-blog.component';
 import { SpecialsComponent } from './specials/specials.component';
 import { ElementsComponent } from './elements/elements.component';
 import { ContactComponent } from './contact/contact.component';
@@ -35,7 +34,6 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     GalleryComponent,
     ProductComponent,
     ServiceComponent,
-    SingleBlogComponent,
     SpecialsComponent,
     ElementsComponent,
     ContactComponent,

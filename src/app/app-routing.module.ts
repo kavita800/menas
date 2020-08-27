@@ -8,7 +8,6 @@ import { ElementsComponent } from './elements/elements.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ProductComponent } from './product/product.component';
 import { ServiceComponent } from './service/service.component';
-import { SingleBlogComponent } from './single-blog/single-blog.component';
 import { SpecialsComponent } from './specials/specials.component';
 import { OurTeamComponent } from './our-team/our-team.component';
 import { LocationComponent } from './location/location.component';
@@ -26,7 +25,6 @@ const routes: Routes = [
   { path: 'gallery', component: GalleryComponent  },
   { path: 'product', component: ProductComponent  },
   { path: 'service', component: ServiceComponent  },
-  { path: 'single-blog', component: SingleBlogComponent  },
   { path: 'specials', component: SpecialsComponent  },
   { path: 'our-team/:name', component: OurTeamComponent  },
   { path: 'location', component: LocationComponent  },

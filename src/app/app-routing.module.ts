@@ -28,9 +28,7 @@ const routes: Routes = [
   { path: 'specials', component: SpecialsComponent  },
   { path: 'our-team/:name', component: OurTeamComponent  },
   { path: 'location', component: LocationComponent  },
-
   // { path: 'appointment', component: BasicelementsComponent  },
-  
   { path: '**', loadChildren: './not-found/not-found.module#NotFoundModule' }
 ]
 
